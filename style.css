@@ -5,6 +5,10 @@
     padding: 0;
     margin: 0;
 }
+header{
+    background: whitesmoke;
+    display: flex;
+}
 
 .out {
     display: flex;
