@@ -209,7 +209,7 @@
     border: #3e0444;
     border-style: double;
     
-     margin: 0px 120px 0px 120px;
+     
      text-decoration: none;
 }
 
@@ -232,7 +232,7 @@
     border: #19011c;
     border-style: double;
     text-decoration: solid;
-    margin: 0px 140px 0px 140px;
+   
 }
 
 .lastbox:hover a{
