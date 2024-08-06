@@ -17,7 +17,7 @@
 .out   {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 20px 0px 0px 0px;
     background-image: url("bac.png");
     
 }
@@ -36,10 +36,10 @@
 
 .out  h3 {
     position: relative;
-    top: 60px;
+    top: 40px;
     left: 54%;
     transform: translate(-50%, -50%);
-    padding: 0 0 85px 0px;
+    padding: 0 0 15px 0px;
     text-align: center;
     color: #d988e0;
     font-size: 35px;
@@ -73,13 +73,22 @@
 }
 
 .option  #search:hover {
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(145, 60, 156);
     color: rgba(79, 4, 77, 0.725);
     font-size: 400;
     font-weight: 600;
 }
+.option  #search a{
+    color: #ffffff;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+    font-style: normal;
+     text-decoration: none;
+     padding-left:6px ;
 
+}
 .option #settings {
+    
     list-style: none;
     text-decoration: none;
     color: whitesmoke;
@@ -95,13 +104,19 @@
     top: 35px;
 }
 .option #settings:hover {
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(145, 60, 156);
     color: rgba(70, 4, 74, 0.804);
     font-size: 400;
     font-weight: 600;
 
 }
-
+.option #settings a{
+    color: #ffffff;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+    font-style: normal;
+     text-decoration: none;
+}
 .logo img {
     height: 100px;
     position: relative;
@@ -182,24 +197,34 @@
 .box2 {
     border: 2px;
 }
+.subscription{
+    margin: 0px 140px 0px 140px;
+}
 
-.subscription {
+.subscription a{
+    color: #19011c;
     font-family: "Bangers", system-ui;
     font-weight: 300;
     font-style: normal;
     border: #3e0444;
     border-style: double;
-
+    
+     margin: 0px 120px 0px 120px;
+     text-decoration: none;
 }
 
-.subscription:hover {
+.subscription:hover a{
     background-color: rgba(83, 4, 83, 0.66);
     color: white;
     font-size: 400;
     font-weight: 400;
 }
-
-.lastbox {
+.lastbox{
+    margin: 0px 140px 0px 140px;
+}
+.lastbox a{
+    display: block;
+    color: #19011c;
     padding: 20px;
     font-family: "Bangers", system-ui;
     font-weight: 300;
@@ -207,9 +232,10 @@
     border: #19011c;
     border-style: double;
     text-decoration: solid;
+    margin: 0px 140px 0px 140px;
 }
 
-.lastbox:hover {
+.lastbox:hover a{
     background-color: rgba(83, 4, 83, 0.66);
     color: white;
     font-size: 400;
