@@ -68,7 +68,7 @@
     border-radius: 5px;
     transition: all 0.5s ease-in;
     position:relative;
-    left: 60px;
+    left: 0px;
     top: 25px;
 }
 
@@ -100,7 +100,7 @@
     border-radius: 5px;
     transition: all 0.5s ease-in;
     position: relative;
-    left: 60px;
+    left: 0px;
     top: 35px;
 }
 .option #settings:hover {
@@ -118,9 +118,9 @@
      text-decoration: none;
 }
 .logo img {
-    height: 100px;
+    height: 160px;
     position: relative;
-    right: 30px;
+    right: 0px;
 }
 
 
@@ -149,6 +149,7 @@
     height: 26px;
     border: 2px solid black;
     border-radius: 8px;
+    padding: 2px;
 }
 
 .input #inp2 {
@@ -179,7 +180,7 @@
 
 .output {
 
-    margin: 0px 120px 0px 120px;
+
     padding: 20px;
     font-family: "Bangers", system-ui;
     font-weight: 300;
@@ -196,9 +197,11 @@
 
 .box2 {
     border: 2px;
+   
 }
 .subscription{
-    margin: 0px 140px 0px 140px;
+    border: #3e0444;
+    border-style: double;
 }
 
 .subscription a{
@@ -206,21 +209,20 @@
     font-family: "Bangers", system-ui;
     font-weight: 300;
     font-style: normal;
-    border: #3e0444;
-    border-style: double;
-    
+   
+   
      
      text-decoration: none;
 }
 
-.subscription:hover a{
+.subscription:hover {
     background-color: rgba(83, 4, 83, 0.66);
     color: white;
     font-size: 400;
     font-weight: 400;
 }
 .lastbox{
-    margin: 0px 140px 0px 140px;
+   
 }
 .lastbox a{
     display: block;
